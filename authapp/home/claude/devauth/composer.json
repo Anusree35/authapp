@@ -1,0 +1,11 @@
+{
+  "name": "authapp/authapp",
+  "description": "GUVI Internship – Full Stack Auth App",
+  "require": {
+    "php": ">=7.4",
+    "mongodb/mongodb": "^1.15"
+  },
+  "autoload": {
+    "psr-4": {}
+  }
+}

@@ -1,0 +1,102 @@
+/* =============================================
+   style.css  –  AuthApp Global Styles
+   ============================================= */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+}
+
+/* Auth background */
+.auth-bg {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  min-height: 100vh;
+}
+
+/* Auth card */
+.auth-card {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 16px;
+  border: none;
+  background: #ffffff;
+}
+
+/* Hero section */
+.hero-section {
+  min-height: calc(100vh - 56px);
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+}
+
+/* Avatar circle */
+.avatar-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0f3460, #533483);
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+/* Detail box in view mode */
+.detail-box {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+  padding: 14px 16px;
+  min-height: 60px;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+/* Form controls */
+.form-control:focus,
+.form-select:focus {
+  border-color: #0f3460;
+  box-shadow: 0 0 0 0.2rem rgba(15, 52, 96, 0.2);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #0f3460;
+  border-color: #0f3460;
+}
+.btn-primary:hover {
+  background-color: #0a2540;
+  border-color: #0a2540;
+}
+.btn-outline-primary {
+  color: #0f3460;
+  border-color: #0f3460;
+}
+.btn-outline-primary:hover {
+  background-color: #0f3460;
+  color: #fff;
+}
+
+/* Alert box */
+.alert {
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
+/* Cards */
+.card {
+  border-radius: 14px;
+  border: 1px solid #e9ecef;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .auth-card {
+    margin: 0 12px;
+  }
+}
